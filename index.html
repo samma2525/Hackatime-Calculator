@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+    </title>
+    <link rel="icon" href="" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="top-section">
+        <h1>Hackatime Time Calculator</h1>
+        <p>This website is for planning how much actucal time you would need for your goal, as understading and searching about errors takes more time than the one you track</p>
+    </div><br><br>
+    <div class="claculator">
+        <div class="inputs">
+            <form>
+                <label for="goal">Goal:</label><br>
+                <input type="number" id="goal" name="goal"><br><br>
+
+                <label for="time-made">Time Made:</label><br>
+                <input type="number" id="time-made" name="time-made"><br><br>
+
+                <label for="time-left">Time Left (in days):</label><br>
+                <input type="number" id="time-left" name="time-left"><br><br>
+
+                <label>Average additional time you take in making one hour in Hackatime (optional):</label><br>
+                <input type="number" id="additional-time" name="additional-time"><br><br>
+            </form>
+        </div>
+
+
+        <div class="results">
+            <p>Your approximate time</p>
+            <b><p id="approx-time">18</p></b>
+            <p id="note">You can do__ mins/hours daily until your deadline!
+            </p>
+            <!--or I could write "that's about 9 days" -->
+        </div>
+    </div>
+</body>
+
+</html>
