@@ -30,7 +30,9 @@ label {
     margin: auto;
     max-width: 700px;
     border: 2px solid #fb9b75;
-    padding: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgb(251, 155, 117, 0.7);
 }
 
 .input {
@@ -55,4 +57,14 @@ label {
 input {
     border: 2px solid #fb9b75;
     border-radius: 5px;
+}
+
+#submitBtn {
+    font-family: "Abeezee";
+    padding: 5px;
+    background-color: #fb3954;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
